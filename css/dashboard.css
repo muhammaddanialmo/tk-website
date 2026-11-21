@@ -51,6 +51,8 @@ h2 { font-weight: 700; }
 .nav-item:hover { background: var(--portal-bg); color: var(--portal-ink); }
 .nav-item.active { background: var(--portal-ink); color: var(--portal-card); }
 .admin-nav-link { display: none; }
+.nav-group { padding: 16px 12px 4px; color: var(--portal-muted); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+.nav-sub { padding-left: 24px; }
 
 .sidebar-user {
   display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
@@ -271,6 +273,8 @@ h2 { font-weight: 700; }
   #portal-nav { display: flex; flex: 1; gap: 4px; overflow-x: auto; }
   .nav-item { flex: 0 0 auto; width: auto; padding: 8px 12px; white-space: nowrap; }
   .admin-nav-link { display: inline-flex; }
+  .nav-group { display: none; }
+  .nav-sub { padding-left: 12px; }
   .sidebar-user { display: none; }
   #mobile-logout { display: inline-flex; flex: 0 0 auto; }
   .portal-main { width: 100%; padding: 24px 16px; }
